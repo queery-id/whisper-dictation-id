@@ -1,0 +1,14 @@
+# Ignore virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore temp audio files
+*.wav
+*.mp3
+
+# Never commit real config with API keys!
+src/config.py
+.env
+*.env
